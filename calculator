@@ -1,5 +1,4 @@
 # my-first-repo.
-for calculator
 function calculator(num1, num2, operator) {
   let result;
 
