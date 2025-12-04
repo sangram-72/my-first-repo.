@@ -1,0 +1,4 @@
+let snagram = 25
+
+ console.log(snagram);
+ console.log(typeof snagram);
