@@ -1,0 +1,8 @@
+let score1 = 100
+let score2 = 75 
+if (score1>score2) { console.log(true);
+
+    
+} else {console.log(false)
+    
+}
