@@ -1,6 +1,0 @@
-let myage=23
-   
-let myfutureage = myage+5
-
-  console.log("in five years my age will be" +myfutureage);
- 
