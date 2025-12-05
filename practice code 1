@@ -1,0 +1,7 @@
+let firstname = "harkirat";
+let age = 18;
+let isMarried = false;
+
+console.log("this person name is" + firstname + "and their age" + age);
+
+console.log("this person name is");
