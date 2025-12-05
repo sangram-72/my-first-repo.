@@ -1,4 +1,4 @@
-let snagram = 25
+let sangram = 25
 
- console.log(snagram);
- console.log(typeof snagram);
+ console.log(sangram);
+ console.log(typeof sangram);
