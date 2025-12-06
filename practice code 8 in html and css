@@ -1,0 +1,28 @@
+<div>
+
+    <nav style="background-color: red;  display: flex; justify-content: space-between; box-shadow: 1x 2x 1x" >
+        
+        <img src="logo.png" alt="logo" width="100px">
+
+        <div style="display: flex; gap: 30px; align-items: center; cursor: pointer;">
+            <span style="color: antiquewhite;">Home</span>
+            <span style="color: antiquewhite;">Catalog</span>
+            <span style="color: antiquewhite;">Policy</span>
+        </div>
+    </nav>
+          <br> <br> <br>
+    <div style="display: flex; justify-content: center;">  
+        <span">
+
+            <img src="download.jpg" alt="supra"  width="500" height="500">
+
+        
+    </div>
+         <br> <br>
+       <span style="display: flex; justify-content: center; cursor: pointer;"> 
+          <span style="color: rgb(16, 16, 16); background-color: rgb(233, 38, 12); border-radius: 5px;">
+          download image
+       </span>
+
+
+</div>
