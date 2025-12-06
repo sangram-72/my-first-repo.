@@ -1,0 +1,12 @@
+let score1 = 100
+let score2 = 75
+
+if (score1 > score2) { 
+    console.log("score 1 ishigher") 
+}
+else if (score1 < score2) { 
+    console.log("score 2 is higher") 
+}
+else{ 
+    console.log("score is tied")
+}
