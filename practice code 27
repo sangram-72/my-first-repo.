@@ -1,0 +1,9 @@
+const user = {
+  name: "Sangram",
+  age: 25,
+  city: "Pune"
+};
+
+for (const key in user) {
+  console.log(key, ":", user[key]);
+}
