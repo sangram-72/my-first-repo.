@@ -1,0 +1,6 @@
+let arr1 = [1, 2, 3 , 4]
+arr1.unshift(0);
+// [0,1,2,3,4]
+// [1,2,3,4]
+
+console.log(arr1)
