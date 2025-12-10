@@ -1,0 +1,5 @@
+let mybalance=50000
+   
+let myfuturebalance = mybalance+50000
+
+  console.log("in five years my balance will be" +myfutureage);
