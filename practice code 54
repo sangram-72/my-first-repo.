@@ -1,0 +1,11 @@
+let pass = "hello123";
+
+if (pass.length < 4) {
+    console.log("Very Weak");
+} else if (pass.length < 8) {
+    console.log("Weak");
+} else if (pass.length < 12) {
+    console.log("Strong");
+} else {
+    console.log("Very Strong");
+}
