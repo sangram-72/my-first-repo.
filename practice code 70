@@ -1,0 +1,3 @@
+let text = "Hello";
+console.log(text[0]); // H
+console.log(text.charAt(1)); // e
