@@ -1,0 +1,2 @@
+let arr = ["Hello", "JS", "World"];
+console.log(arr.join(" ")); // "Hello JS World"
