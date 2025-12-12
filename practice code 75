@@ -1,0 +1,2 @@
+let text = "JavaScript";
+console.log(text.slice(4, 10)); // Script
