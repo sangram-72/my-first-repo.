@@ -1,0 +1,5 @@
+let p = 1000, r = 5, t = 2;
+
+let SI = (p * r * t) / 100;
+
+console.log("Simple Interest =", SI);
