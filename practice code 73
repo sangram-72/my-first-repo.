@@ -1,0 +1,2 @@
+let msg = "JavaScript is awesome";
+console.log(msg.includes("awesome")); // true
