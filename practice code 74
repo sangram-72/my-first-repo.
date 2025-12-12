@@ -1,1 +1,2 @@
+let msg = "JavaScript is awesome";
 console.log(msg.indexOf("is"));  // 11
