@@ -1,0 +1,2 @@
+let city = "Mumbai";
+console.log(city.toUpperCase()); // MUMBAI
