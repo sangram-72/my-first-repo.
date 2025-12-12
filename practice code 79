@@ -1,0 +1,3 @@
+let sentence = "apple,banana,grapes";
+let fruits = sentence.split(",");
+console.log(fruits); // ["apple", "banana", "grapes"]
