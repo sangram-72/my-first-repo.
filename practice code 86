@@ -1,0 +1,10 @@
+let balance = 12000;
+let isPremium = true;
+
+if (balance >= 10000 && isPremium) {
+  console.log("Premium benefits unlocked");
+} else if (balance >= 5000 || isPremium) {
+  console.log("Standard benefits unlocked");
+} else {
+  console.log("Basic account");
+}
