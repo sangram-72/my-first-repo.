@@ -1,0 +1,11 @@
+function checkSpeed(speed) {
+  if (speed <= 40) {
+    return "Slow";
+  } else if (speed <= 80) {
+    return "Normal";
+  } else {
+    return "Fast";
+  }
+}
+
+console.log(checkSpeed(65));
