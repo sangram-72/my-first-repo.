@@ -5,3 +5,9 @@ if (x = 10) {
   console.log("Wrong comparison");
 }
 
+// ✅ Correct
+if (x === 10) {
+  console.log("Correct comparison");
+}
+
+
