@@ -1,0 +1,15 @@
+let user = {
+  name: "Sangram",
+  role: "admin",
+  active: true
+};
+
+if (!user.active) {
+  console.log("User is inactive");
+} else if (user.role === "admin") {
+  console.log("Admin access granted");
+} else if (user.role === "editor") {
+  console.log("Editor access granted");
+} else {
+  console.log("Viewer access granted");
+}
