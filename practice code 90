@@ -1,0 +1,15 @@
+let status = "delivered";
+
+switch (status) {
+  case "pending":
+    console.log("Order pending");
+    break;
+  case "shipped":
+    console.log("Order shipped");
+    break;
+  case "delivered":
+    console.log("Order delivered");
+    break;
+  default:
+    console.log("Unknown status");
+}
