@@ -1,0 +1,9 @@
+let day = "Monday";
+
+if (day === "Sunday") {
+  console.log("Holiday");
+} else if (day === "Saturday") {
+  console.log("Weekend");
+} else {
+  console.log("Working day");
+}
