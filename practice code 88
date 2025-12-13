@@ -1,0 +1,7 @@
+let x = 5;
+
+// ❌ Wrong
+if (x = 10) {
+  console.log("Wrong comparison");
+}
+
