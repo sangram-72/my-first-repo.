@@ -1,0 +1,14 @@
+function getGrade(marks) {
+  switch (true) {
+    case marks >= 90:
+      return "A";
+    case marks >= 75:
+      return "B";
+    case marks >= 60:
+      return "C";
+    default:
+      return "Fail";
+  }
+}
+
+console.log(getGrade(82)); // B
