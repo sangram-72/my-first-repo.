@@ -1,0 +1,4 @@
+function addNumbers(a, b) {
+  console.log(a + b);
+}
+addNumbers(a=5 , b=5);
