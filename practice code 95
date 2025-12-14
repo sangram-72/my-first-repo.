@@ -1,0 +1,8 @@
+let username = "raman";
+let mobilenumber = 55699677;
+
+if (username = "raman"&& mobilenumber ==556677) {
+  console.log("right contact");
+} else  {
+  console.log("Incorrect contact");
+}
