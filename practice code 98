@@ -1,0 +1,9 @@
+function square(num) {
+  return num * num;
+}
+
+function printSquare(value) {
+  console.log(square(value));
+}
+
+printSquare(6); // 36
