@@ -1,0 +1,9 @@
+let username = "raman";
+let password = 556677;
+
+if (username = "raman"&& password ==556677) {
+  console.log("Login successfull");
+} else if (username = "raman"&& password ==556688) {
+  console.log("Incorrect password");
+} else {
+ console.log("Username incorrect") ;
