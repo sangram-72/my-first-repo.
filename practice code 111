@@ -1,0 +1,5 @@
+function areaOfSquare(side) {
+  return side * side;
+}
+
+console.log("Area of Square:", areaOfSquare(5));
