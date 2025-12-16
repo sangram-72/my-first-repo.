@@ -1,0 +1,6 @@
+let num = 6;
+
+let square = num * num;
+
+console.log("Square =", square);
+
