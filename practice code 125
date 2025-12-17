@@ -1,0 +1,6 @@
+let length = 10;
+let width = 4;
+
+let perimeter = 2 * (length + width);
+
+console.log("Perimeter of the rectangle is:", perimeter);
