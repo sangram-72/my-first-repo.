@@ -1,0 +1,8 @@
+let length = 6;
+let width = 6;
+
+if (length === width) {
+    console.log("It is a square");
+} else {
+    console.log("It is a rectangle (not a square)");
+}
