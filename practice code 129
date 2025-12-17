@@ -1,0 +1,4 @@
+let radius = 5;
+let diameter = 2 * radius;
+
+console.log("Diameter of the circle is:", diameter);
