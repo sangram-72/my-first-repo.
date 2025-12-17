@@ -1,0 +1,9 @@
+// Given values
+let base = 10;     // base of triangle
+let height = 5;   // height of triangle
+
+// Area formula
+let area = 0.5 * base * height;
+
+// Output
+console.log("Area of the triangle is: " + area);
