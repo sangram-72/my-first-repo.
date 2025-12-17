@@ -1,0 +1,6 @@
+let length = 9;
+let width = 12;
+
+let diagonal = Math.sqrt(length * length + width * width);
+
+console.log("Diagonal of the rectangle is:", diagonal);
