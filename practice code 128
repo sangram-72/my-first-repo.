@@ -1,0 +1,4 @@
+let radius = 10;
+let circumference = 2 * Math.PI * radius;
+
+console.log("Circumference of the circle is:", circumference.toFixed(2));
