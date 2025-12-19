@@ -1,0 +1,7 @@
+let ch = 'A';
+
+if ((ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z')) {
+  console.log("It is an alphabet");
+} else {
+  console.log("Not an alphabet");
+}
