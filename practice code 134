@@ -1,0 +1,7 @@
+let alphabets = [];
+
+for (let i = 65; i <= 90; i++) {
+  alphabets.push(String.fromCharCode(i));
+}
+
+console.log(alphabets);
