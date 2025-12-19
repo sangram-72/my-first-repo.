@@ -1,0 +1,9 @@
+let rows = 5;
+
+for (let i = rows; i >= 1; i--) {
+  let line = "";
+  for (let j = 0; j < i; j++) {
+    line += String.fromCharCode(65 + j) + " ";
+  }
+  console.log(line);
+}
