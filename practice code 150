@@ -1,0 +1,8 @@
+const name = "Sangram";
+const age = 25;
+
+// ❌ Old way
+console.log("My name is " + name + " and I am " + age);
+
+// ✅ Best practice
+console.log(`My name is ${name} and I am ${age}`);
