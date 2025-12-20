@@ -1,0 +1,6 @@
+function calculateTotal(price, tax) {
+  const total = price + tax;
+  return total;
+}
+
+console.log(calculateTotal(100, 10));
