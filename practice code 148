@@ -1,0 +1,6 @@
+try {
+  const data = JSON.parse('{"name":"John"}');
+  console.log(data.name);
+} catch (error) {
+  console.log("Invalid JSON");
+}
