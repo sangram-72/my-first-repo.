@@ -1,0 +1,5 @@
+let name = prompt("Enter your name:");
+let age = Number(prompt("Enter your age"));
+
+let message = `Hello ${name}, you are ${age} years old.`;
+console.log(message);
