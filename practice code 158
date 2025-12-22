@@ -1,0 +1,5 @@
+let prices = [10, 20, 30];
+
+let message = "Total items: " + prices.length;
+console.log(message);
+// Output: Total items: 3
