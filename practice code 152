@@ -1,0 +1,5 @@
+let age = 25;
+let message = `My age is ${age}`;
+
+console.log(message);
+// Output: My age is 25
