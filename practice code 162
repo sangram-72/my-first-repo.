@@ -1,0 +1,4 @@
+let year = 2025;
+let birthYear = year - age;
+
+let result = `Hello ${name}, you were born in ${birthYear}`;
