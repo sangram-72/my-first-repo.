@@ -1,0 +1,5 @@
+let score = 90;
+let result = "Score: " + score.toString();
+
+console.log(result);
+// Output: Score: 90
