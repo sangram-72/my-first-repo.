@@ -1,0 +1,5 @@
+let count = 10;
+let text = "Total items: " + String(count);
+
+console.log(text);
+// Output: Total items: 10
