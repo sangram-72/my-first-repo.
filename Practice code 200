@@ -1,0 +1,7 @@
+a = 10        # int
+b = 2.5       # float
+c = "Python"  # string
+
+print(type(a))
+print(type(b))
+print(type(c))
