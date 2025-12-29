@@ -1,0 +1,3 @@
+let animals = ["dog", "cat"];
+animals.push("cow");
+console.log(animals);
