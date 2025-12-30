@@ -1,0 +1,5 @@
+// Create an array
+let numbers = [10, 20, 30, 40, 50];
+
+// Access elements
+console.log("Last element:", numbers[numbers.length - 1]);
