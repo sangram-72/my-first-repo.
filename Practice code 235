@@ -1,0 +1,6 @@
+// Create an array
+let numbers = [10, 20, 30, 40, 50];
+
+// Remove last element
+numbers.pop();
+console.log("After pop:", numbers);
