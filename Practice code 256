@@ -1,0 +1,10 @@
+let arr = [];
+let n = prompt("Enter size of array:");
+let sum = 0;
+
+for (let i = 0; i < n; i++) {
+  arr[i] = Number(prompt("Enter number"));
+  sum = sum + arr[i];
+}
+
+console.log("Sum =", sum);
