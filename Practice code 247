@@ -1,0 +1,13 @@
+let arr = [];
+let n = prompt("Enter size:");
+arr[0] = Number(prompt("Enter number"));
+let max = arr[0];
+
+for (let i = 1; i < n; i++) {
+  arr[i] = Number(prompt("Enter number"));
+  if (arr[i] > max) {
+    max = arr[i];
+  }
+}
+
+console.log("Largest =", max);
