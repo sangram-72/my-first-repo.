@@ -1,0 +1,2 @@
+let items = ["Pen", "Book", "Pencil"];
+console.log("Total items =", items.length);
