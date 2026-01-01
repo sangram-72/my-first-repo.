@@ -1,0 +1,6 @@
+let arr = [10, 20, 30, 40];
+
+// Add 25 after 2nd element
+arr.splice(2, 0, 25);
+
+console.log(arr);
