@@ -1,0 +1,7 @@
+let arr = [1, 2, 3, 4];
+let value = Number(prompt("Enter value to add"));
+
+// Add after 2nd element
+arr.splice(2, 0, value);
+
+console.log(arr);
