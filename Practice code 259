@@ -1,0 +1,6 @@
+let arr = [1, 2, 3, 4];
+let pos = 2;   // after position
+let val = 99;
+
+arr.splice(pos, 0, val);
+console.log(arr);
