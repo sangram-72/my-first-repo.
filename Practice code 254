@@ -1,0 +1,6 @@
+let arr = [10, 20, 30, 40];
+
+// Before 2nd element (index 1)
+arr.splice(1, 0, 15);
+
+console.log(arr);
