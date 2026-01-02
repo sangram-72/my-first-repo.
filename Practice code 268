@@ -1,0 +1,7 @@
+let arr = [10, 20, 30];
+let search = 20;
+
+if (arr.includes(search))
+  console.log("Found");
+else
+  console.log("Not Found");
