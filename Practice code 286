@@ -1,0 +1,10 @@
+let arr = [1, 2, 3, 4];
+let prefix = [0];
+
+for (let i = 0; i < arr.length; i++) {
+  prefix[i + 1] = prefix[i] + arr[i];
+}
+
+// sum from index 1 to 3
+let l = 1, r = 3;
+console.log(prefix[r + 1] - prefix[l]);
