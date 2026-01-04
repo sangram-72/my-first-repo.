@@ -1,0 +1,16 @@
+let arr = [1, 2, 3, 4, 5];
+let target = 6;
+
+let l = 0, r = arr.length - 1;
+
+while (l < r) {
+  let sum = arr[l] + arr[r];
+  if (sum === target) {
+    console.log(arr[l], arr[r]);
+    break;
+  } else if (sum < target) {
+    l++;
+  } else {
+    r--;
+  }
+}
