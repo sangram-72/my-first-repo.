@@ -1,0 +1,5 @@
+let arr = [100, 200, 300];
+
+for (let i = 0; i < arr.length; i++) {
+  console.log(arr[i]);
+}
