@@ -1,0 +1,3 @@
+let arr = [2000, 3000];
+arr.unshift(1000);
+console.log(arr);
