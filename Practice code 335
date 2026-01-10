@@ -1,0 +1,3 @@
+let arr = [100, 200, 300];
+arr.splice(20, 0, 250);
+console.log(arr);
