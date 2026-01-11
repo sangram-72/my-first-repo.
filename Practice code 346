@@ -1,0 +1,8 @@
+let arr = [1, 2, 2, 3, 3, 3, 4, 4, 5, 5];
+let freq = {};
+
+for (let i of arr) {
+  freq[i] = (freq[i] || 0) + 1;
+}
+
+console.log(freq);
