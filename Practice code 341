@@ -1,0 +1,14 @@
+let arr = [100, 400, 200, 300];
+let max = -Infinity;
+let second = -Infinity;
+
+for (let i of arr) {
+  if (i > max) {
+    second = max;
+    max = i;
+  } else if (i > second && i !== max) {
+    second = i;
+  }
+}
+
+console.log(second);
