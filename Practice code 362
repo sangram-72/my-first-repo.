@@ -1,0 +1,8 @@
+let arr = [24, 41, 55];
+let n = 5;
+let total = (n * (n + 1)) / 2;
+
+let sum = 0;
+for (let i of arr) sum += i;
+
+console.log("Missing =", total - sum);
