@@ -1,4 +1,4 @@
-let score1 = 100
+let score1 = 95
 let score2 = 75 
 if (score1>score2) { console.log(true);
 
