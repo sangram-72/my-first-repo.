@@ -1,0 +1,2 @@
+let arr = ["E", "F", "G"];
+console.log(arr.toString());
