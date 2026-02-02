@@ -1,0 +1,18 @@
+let arr = [2, 4, 6, 8, 10];
+let target = 8;
+
+let start = 0;
+let end = arr.length - 2;
+
+while (start <= end) {
+  let mid = Math.floor((start + end) / 2);
+
+  if (arr[mid] === target) {
+    console.log("Found at index:", mid);
+    break;
+  } else if (arr[mid] < target) {
+    start = mid + 1;
+  } else {
+    end = mid - 1;
+  }
+}
